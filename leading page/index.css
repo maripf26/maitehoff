@@ -1,0 +1,122 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.temporizador-container {
+    margin-bottom: 15px;
+}
+
+.temporizador {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.oferta {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff0101;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+/* Seção Produto */
+.produto {
+    text-align: center;
+    margin: 40px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
+    padding: 30px;
+}
+
+.chamativo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.produto-imagem img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.884);
+}
+
+/* Seção Prévia */
+.previsao {
+    text-align: center;
+    margin: 40px;
+}
+
+.previsao-titulo {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.imagens-previa {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imagem-previa {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(54, 54, 54)
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 08px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    }
+
+footer img {
+    width: 300px;
+    height: 100px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
